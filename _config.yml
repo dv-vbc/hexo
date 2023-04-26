@@ -105,4 +105,4 @@ deploy:
   type: git
   repo: git@github.com:/dv-vbc/hexo.git
   branch: gh-pages
-  message: 'Site updated: {{ now("YYYY-MM-DD HH:mm:ss") }})'
+  message: 'Site updated: {{ now("yyyy-MM-dd HH:mm:ss") }}'
